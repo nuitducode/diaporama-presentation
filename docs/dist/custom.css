@@ -1,0 +1,53 @@
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+:root {
+    --r-background-color: #fafcfe;
+    --r-main-font: monospace;
+    --r-main-font-size: 42px;
+    --r-main-color: #222;
+    --r-block-margin: 0px;
+    --r-heading-margin: 20px 0 20px 0;
+    --r-heading-font: monospace;
+    --r-heading-color: #222;
+    --r-heading-line-height: 1.2;
+    --r-heading-letter-spacing: normal;
+    --r-heading-text-transform: uppercase;
+    --r-heading-text-shadow: none;
+    --r-heading-font-weight: 600;
+    --r-heading1-text-shadow: none;
+    --r-heading1-size: 2.5em;
+    --r-heading2-size: 1.3em;
+    --r-heading3-size: 1.2em;
+    --r-heading4-size: 1em;
+    --r-code-font: monospace;
+    --r-link-color: #2a76dd;
+    --r-link-color-dark: #1a53a1;
+    --r-link-color-hover: #6ca0e8;
+    --r-selection-background-color: #98bdef;
+    --r-selection-color: #fff;
+}
+
+.reveal-viewport {
+    background: #fff;
+    background-color: var(--r-background-color);
+}
+
+.reveal {
+    font-family: var(--r-main-font);
+    font-size: var(--r-main-font-size);
+    font-weight: normal;
+    color: var(--r-main-color);
+}
+
+li {
+    margin-bottom:15px;
+    list-style-type: none;
+}
+
+video {
+    border-radius:5px;
+}
+
+
+
